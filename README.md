@@ -1,0 +1,2 @@
+# gudang
+Inventory LCC Komputer
