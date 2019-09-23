@@ -14,25 +14,25 @@
 				<div class="tab-content custom-menu-content">
 					<div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="index.html">Dashboard</a>
+							<li><a href="<?= base_url() ?>admin/home">Dashboard</a>
 							</li>
 						</ul>
 					</div>
 					<div id="Interface" class="tab-pane active notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="animations.html">Barang</a>
+							<li><a href="<?= base_url() ?>admin/barang_global">Barang</a>
 							</li>
-							<li><a href="google-map.html">Merk</a>
+							<li><a href="<?= base_url() ?>admin/merk_barang">Merk</a>
 							</li>
-							<li><a href="data-map.html">Kategori</a>
+							<li><a href="<?= base_url() ?>admin/kategori_barang">Kategori</a>
 							</li>
-							<li><a href="code-editor.html">Satuan</a>
+							<li><a href="<?= base_url() ?>admin/satuan_barang">Satuan</a>
 							</li>
 						</ul>
 					</div>
 					<div id="Forms" class="tab-pane notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="form-elements.html">Jenis Toko</a>
+							<li><a href="<?= base_url() ?>admin/jenis_toko">Jenis Toko</a>
 							</li>
 						</ul>
 					</div>
