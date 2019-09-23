@@ -10,7 +10,7 @@
 									<i class="notika-icon notika-form"></i>
 								</div>
 								<div class="breadcomb-ctn">
-									<h2>Input Barang Global</h2>
+									<h2>Edit Barang Global</h2>
 									<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
 								</div>
 							</div>
@@ -39,7 +39,8 @@
 							<label for="">Nama Barang</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control" placeholder="Masukan nama barang">
+									<input type="text" class="form-control" placeholder="Masukan nama barang"
+										value="Asus X453 MA">
 								</div>
 							</div>
 						</div>
@@ -81,7 +82,8 @@
 							<label for="">Harga Beli</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control" placeholder="Masukan harga beli barang">
+									<input type="text" class="form-control" placeholder="Masukan harga beli barang"
+										value="3.500.000">
 								</div>
 							</div>
 						</div>
@@ -89,7 +91,8 @@
 							<label for="">Harga Jual</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control" placeholder="Masukan harga jual barang">
+									<input type="text" class="form-control" placeholder="Masukan harga jual barang"
+										value="4.000.000">
 								</div>
 							</div>
 						</div>
@@ -116,7 +119,7 @@
 					</div>
 
 					<!-- <button type="submit" name="simpan" class="btn btn-primary">Simpan</button> -->
-					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-primary">Simpan</a>
+					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-primary">Update</a>
 					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-danger">Kembali</a>
 				</div>
 			</div>

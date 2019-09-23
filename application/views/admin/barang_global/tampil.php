@@ -63,7 +63,7 @@
 									<td>Pcs</td>
 									<td>Laptop</td>
 									<td>
-										<a href="<?= base_url(); ?>admin/merk_barang/edit"> <i
+										<a href="<?= base_url(); ?>admin/barang_global/edit"> <i
 												class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
 												class="btn btn-danger fa fa-trash"></i></a>
