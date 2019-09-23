@@ -39,8 +39,7 @@
 							<label for="">Kode Kategori Barang</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control input-lg" placeholder="" value="K001"
-										readonly>
+									<input type="text" class="form-control" placeholder="" value="K001" readonly>
 								</div>
 							</div>
 						</div>
@@ -48,7 +47,7 @@
 							<label for="">Nama Kategori Barang</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control input-lg" placeholder="" value="Laptop">
+									<input type="text" class="form-control" placeholder="" value="Laptop">
 								</div>
 							</div>
 						</div>

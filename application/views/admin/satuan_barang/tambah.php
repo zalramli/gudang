@@ -39,8 +39,7 @@
 							<label for="">Nama Satuan</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control input-lg"
-										placeholder="Masukan nama satuan barang">
+									<input type="text" class="form-control" placeholder="Masukan nama satuan barang">
 								</div>
 							</div>
 						</div>
