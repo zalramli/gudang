@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
 
 <head>
-	<?php $this->load->view('_partial/a_head.php'); ?>
+	<?php $this->load->view('_partial/head.php'); ?>
 </head>
 
 <body>
@@ -12,17 +12,17 @@
 
 
 	<!-- Start Header Top Area -->
-	<?php $this->load->view('_partial/b_header.php'); ?>
+	<?php $this->load->view('_partial/header.php'); ?>
 	<!-- End Header Top Area -->
 
 
 	<!-- Mobile Menu start -->
-	<?php $this->load->view('_partial/c_navbar_mobile.php'); ?>
+	<?php $this->load->view('_partial/navbar_gudang/navbar_mobile_gudang.php'); ?>
 	<!-- Mobile Menu end -->
 
 
 	<!-- Main Menu area start-->
-	<?php $this->load->view('_partial/d_navbar_desktop.php'); ?>
+	<?php $this->load->view('_partial/navbar_gudang/navbar_desktop_gudang.php'); ?>
 	<!-- Main Menu area End-->
 
 
@@ -32,12 +32,12 @@
 
 
 	<!-- Start Footer area-->
-	<?php $this->load->view('_partial/e_footer.php'); ?>
+	<?php $this->load->view('_partial/footer.php'); ?>
 	<!-- End Footer area-->
 
 
 	<!-- Start JAVASCRIPT area-->
-	<?php $this->load->view('_partial/f_javascript.php'); ?>
+	<?php $this->load->view('_partial/javascript.php'); ?>
 	<!-- End JAVASCRIPT area-->
 </body>
 
