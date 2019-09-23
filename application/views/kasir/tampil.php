@@ -216,8 +216,7 @@
 										<label for="inputEmail3" class="col-sm-2 control-label"></label>
 										<div class="col-sm-10 text-right">
 											<button type="submit" class="btn btn-primary">Simpan</button>
-											<a href="" class="btn btn-success">Print</a>
-
+											<a href="<?= base_url() ?>kasir/home/nota" class="btn btn-success">Print</a>
 										</div>
 									</div>
 								</form>

@@ -5,5 +5,9 @@ class Home extends CI_Controller {
         {
                 $this->template->load('template/template_kasir','kasir/tampil');
         }
+        public function nota()
+        {
+                $this->load->view('kasir/nota');
+        }
 
 }
