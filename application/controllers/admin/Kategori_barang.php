@@ -10,5 +10,9 @@ class Kategori_barang extends CI_Controller {
         {
                 $this->template->load('template/template_admin','admin/kategori_barang/tambah');           
         }
+        public function edit()
+        {
+                $this->template->load('template/template_admin','admin/kategori_barang/edit');
+        }
 
 }

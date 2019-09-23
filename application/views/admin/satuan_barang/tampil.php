@@ -10,7 +10,7 @@
 									<i class="notika-icon notika-windows"></i>
 								</div>
 								<div class="breadcomb-ctn">
-									<h2>DATA KATEGORI BARANG</h2>
+									<h2>DATA SATUAN BARANG</h2>
 									<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
 								</div>
 							</div>
@@ -33,7 +33,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="data-table-list">
 					<div class="basic-tb-hd">
-						<a href="<?= base_url(); ?>admin/kategori_barang/add"
+						<a href="<?= base_url(); ?>admin/satuan_barang/add"
 							class="btn btn-success notika-btn-success waves-effect">Tambah
 							Data</a>
 					</div>
@@ -42,24 +42,24 @@
 							<thead>
 								<tr>
 									<th>Kode</th>
-									<th>Nama Kategori</th>
+									<th>Nama Satuan</th>
 									<th>Aksi</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>K001</td>
-									<td>Laptop</td>
+									<td>S001</td>
+									<td>Pcs</td>
 									<td>
-										<a href="<?= base_url(); ?>admin/kategori_barang/edit"> <i
+										<a href="<?= base_url(); ?>admin/satuan_barang/edit"> <i
 												class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
 												class="btn btn-danger fa fa-trash"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td>K002</td>
-									<td>Smartphone</td>
+									<td>S002</td>
+									<td>Lusin</td>
 									<td>
 										<a href=""> <i class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
@@ -67,8 +67,8 @@
 									</td>
 								</tr>
 								<tr>
-									<td>K003</td>
-									<td>Aksesoris</td>
+									<td>S003</td>
+									<td>Biji</td>
 									<td>
 										<a href=""> <i class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
@@ -79,7 +79,7 @@
 							<tfoot>
 								<tr>
 									<th>Kode</th>
-									<th>Nama Kategori</th>
+									<th>Nama Satuan</th>
 									<th>Aksi</th>
 								</tr>
 							</tfoot>
