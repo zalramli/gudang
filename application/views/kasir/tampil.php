@@ -160,7 +160,8 @@
 										<tr>
 											<th class="text-center" width="68%">NAMA</th>
 											<th class="text-center" width="30%">HARGA</th>
-											<th width="2%">QTY</th>
+											<th width="1%">QTY</th>
+											<th width="1%">.</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -168,16 +169,27 @@
 											<td>Asus X453 MA</td>
 											<td class="text-right">3.500.000</td>
 											<td class="text-center">1</td>
+											<td><a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
+														class="btn btn-xs btn-danger glyphicon glyphicon-remove"></i></a>
+											</td>
 										</tr>
 										<tr>
 											<td>Acer X453 MA</td>
 											<td class="text-right">3.500.000</td>
 											<td class="text-center">2</td>
+											<td><a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
+														class="btn btn-xs btn-danger glyphicon glyphicon-remove"></i></a>
+											</td>
+
 										</tr>
 										<tr>
 											<td>Lenovo X453 MA</td>
 											<td class="text-right">3.500.000</td>
 											<td class="text-center">1</td>
+											<td><a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i
+														class="btn btn-xs btn-danger glyphicon glyphicon-remove"></i></a>
+											</td>
+
 										</tr>
 									</tbody>
 								</table>
@@ -216,7 +228,8 @@
 										<label for="inputEmail3" class="col-sm-2 control-label"></label>
 										<div class="col-sm-10 text-right">
 											<button type="submit" class="btn btn-primary">Simpan</button>
-											<a href="<?= base_url() ?>kasir/home/nota" class="btn btn-success">Print</a>
+											<a target="_blank" href="<?= base_url() ?>kasir/home/nota"
+												class="btn btn-success">Print</a>
 										</div>
 									</div>
 								</form>
