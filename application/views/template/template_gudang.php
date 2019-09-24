@@ -17,12 +17,12 @@
 
 
 	<!-- Mobile Menu start -->
-	<?php $this->load->view('_partial/navbar_admin/navbar_mobile_admin.php'); ?>
+	<?php $this->load->view('_partial/navbar_gudang/navbar_mobile_gudang.php'); ?>
 	<!-- Mobile Menu end -->
 
 
 	<!-- Main Menu area start-->
-	<?php $this->load->view('_partial/navbar_admin/navbar_desktop_admin.php'); ?>
+	<?php $this->load->view('_partial/navbar_gudang/navbar_desktop_gudang.php'); ?>
 	<!-- Main Menu area End-->
 
 
