@@ -41,9 +41,6 @@
 <script src="<?= base_url(); ?>assets/template/js/knob/jquery.knob.js"></script>
 <script src="<?= base_url(); ?>assets/template/js/knob/jquery.appear.js"></script>
 <script src="<?= base_url(); ?>assets/template/js/knob/knob-active.js"></script>
-<!--  Chat JS
-		============================================ -->
-<script src="<?= base_url(); ?>assets/template/js/chat/jquery.chat.js"></script>
 <!--  wizard JS
 		============================================ -->
 <script src="<?= base_url(); ?>assets/template/js/wizard/jquery.bootstrap.wizard.min.js"></script>
@@ -58,9 +55,14 @@
 <!-- plugins JS
 		============================================ -->
 <script src="<?= base_url(); ?>assets/template/js/plugins.js"></script>
+<!-- Data Table JS
+        ============================================ -->
+<script src="<?= base_url(); ?>assets/template/js/data-table/jquery.dataTables.min.js"></script>
+<script src="<?= base_url(); ?>assets/template/js/data-table/data-table-act.js"></script>
 <!-- main JS
 		============================================ -->
 <script src="<?= base_url(); ?>assets/template/js/main.js"></script>
-<!-- tawk chat JS
+
+<!-- bootstrap select JS
 		============================================ -->
-<script src="<?= base_url(); ?>assets/template/js/tawk-chat.js"></script>
+<script src="<?= base_url(); ?>assets/template/js/bootstrap-select/bootstrap-select.js"></script>
