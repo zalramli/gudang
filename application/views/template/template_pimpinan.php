@@ -32,7 +32,7 @@
 
 
     <!-- Start JAVASCRIPT area-->
-    <?php $this->load->view('_partial/javascript.php'); ?>
+    <?php $this->load->view('_partial/javascript_pimpinan.php'); ?>
     <!-- End JAVASCRIPT area-->
 </body>
 

@@ -4,7 +4,7 @@ class Toko extends CI_Controller
 
     public function index()
     {
-        $this->template->load('wizard/template', 'wizard/konten/v_toko.php');
+        $this->template->load('template/template_pimpinan', 'pimpinan/toko/tampil');
     }
 
     public function add()
