@@ -104,3 +104,16 @@
     	$("form :input").attr("autocomplete", "off");
 
     </script>
+    <script>
+    	$(document).ready(function () {
+    		$('#data-table-custom').DataTable({
+    			ordering: false,
+    			bFilter: true,
+    			bPaginate: false,
+    			bInfo: false,
+    			bLengthChange: false
+
+    		});
+    	});
+
+    </script>

@@ -8,31 +8,23 @@
 					<li class="active"><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i>
 							Data Barang</a>
 					</li>
-					<li><a data-toggle="tab" href="#Forms"><i class="notika-icon notika-form"></i> Jenis Toko</a>
-					</li>
 				</ul>
 				<div class="tab-content custom-menu-content">
 					<div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="<?= base_url() ?>admin/home">Dashboard</a>
+							<li><a href="<?= base_url() ?>gudang/home">Dashboard</a>
 							</li>
 						</ul>
 					</div>
 					<div id="Interface" class="tab-pane active notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="<?= base_url() ?>admin/barang_global">Barang</a>
+							<li><a href="<?= base_url() ?>gudang/barang_toko">Daftar Barang</a>
 							</li>
-							<li><a href="<?= base_url() ?>admin/merk_barang">Merk</a>
+							<li><a href="<?= base_url() ?>gudang/barang_toko/barang_baru">Barang Baru <span
+										class="badge badge-light">10</span></a>
 							</li>
-							<li><a href="<?= base_url() ?>admin/kategori_barang">Kategori</a>
-							</li>
-							<li><a href="<?= base_url() ?>admin/satuan_barang">Satuan</a>
-							</li>
-						</ul>
-					</div>
-					<div id="Forms" class="tab-pane notika-tab-menu-bg animated flipInX">
-						<ul class="notika-main-menu-dropdown">
-							<li><a href="<?= base_url() ?>admin/jenis_toko">Jenis Toko</a>
+							<li><a href="<?= base_url() ?>gudang/stok_habis">Stok Habis <span
+										class="badge badge-light">5</span></a>
 							</li>
 						</ul>
 					</div>
