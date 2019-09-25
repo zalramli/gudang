@@ -23,7 +23,7 @@
 							<li><a href="<?= base_url() ?>gudang/barang_toko/barang_baru">Barang Baru <span
 										class="badge badge-light">10</span></a>
 							</li>
-							<li><a href="<?= base_url() ?>gudang/stok_habis">Stok Habis <span
+							<li><a href="<?= base_url() ?>gudang/barang_toko/stock_habis">Stok Habis <span
 										class="badge badge-light">5</span></a>
 							</li>
 						</ul>

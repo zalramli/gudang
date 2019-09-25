@@ -10,7 +10,7 @@
 									<i class="notika-icon notika-windows"></i>
 								</div>
 								<div class="breadcomb-ctn">
-									<h2>DATA BARANG BARU</h2>
+									<h2>DATA STOCK HABIS</h2>
 									<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
 								</div>
 							</div>
@@ -36,8 +36,7 @@
 						<div style="margin-left:14px;">
 							<input type="checkbox" class="i-checks"> Check All
 							<button style="margin-left:30px;"
-								class="btn btn-lg btn-success notika-btn-success waves-effect">Proses
-								Barang</button>
+								class="btn btn-lg btn-success notika-btn-success waves-effect">Uppdate Stock</button>
 						</div>
 					</div>
 					<div class="table-responsive">
@@ -56,27 +55,7 @@
 								<tr>
 									<td><input type="checkbox" class="i-checks"></td>
 									<td>
-										<input type="text" class="form-control" placeholder="Stock">
-									</td>
-									<td>Asus</td>
-									<td>Asus X453 MA</td>
-									<td>Pcs</td>
-									<td>Laptop</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" class="i-checks"></td>
-									<td>
-										<input type="text" class="form-control" placeholder="Stock">
-									</td>
-									<td>Vivo</td>
-									<td>Vivo v15 Pro</td>
-									<td>Pcs</td>
-									<td>Smartphone</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" class="i-checks"></td>
-									<td>
-										<input type="text" class="form-control" placeholder="Stock">
+										<input type="text" class="form-control" placeholder="Stock" value="1">
 									</td>
 									<td>Logitech</td>
 									<td>Keyboard logitech 435</td>
@@ -86,7 +65,7 @@
 								<tr>
 									<td><input type="checkbox" class="i-checks"></td>
 									<td>
-										<input type="text" class="form-control" placeholder="Stock">
+										<input type="text" class="form-control" placeholder="Stock" value="2">
 									</td>
 									<td>Asus</td>
 									<td>Asus X453 MA</td>
@@ -96,7 +75,7 @@
 								<tr>
 									<td><input type="checkbox" class="i-checks"></td>
 									<td>
-										<input type="text" class="form-control" placeholder="Stock">
+										<input type="text" class="form-control" placeholder="Stock" value="1">
 									</td>
 									<td>Vivo</td>
 									<td>Vivo v15 Pro</td>
@@ -106,7 +85,7 @@
 								<tr>
 									<td><input type="checkbox" class="i-checks"></td>
 									<td>
-										<input type="text" class="form-control" placeholder="Stock">
+										<input type="text" class="form-control" placeholder="Stock" value="1">
 									</td>
 									<td>Logitech</td>
 									<td>Keyboard logitech 435</td>
@@ -116,37 +95,7 @@
 								<tr>
 									<td><input type="checkbox" class="i-checks"></td>
 									<td>
-										<input type="text" class="form-control" placeholder="Stock">
-									</td>
-									<td>Asus</td>
-									<td>Asus X453 MA</td>
-									<td>Pcs</td>
-									<td>Laptop</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" class="i-checks"></td>
-									<td>
-										<input type="text" class="form-control" placeholder="Stock">
-									</td>
-									<td>Vivo</td>
-									<td>Vivo v15 Pro</td>
-									<td>Pcs</td>
-									<td>Smartphone</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" class="i-checks"></td>
-									<td>
-										<input type="text" class="form-control" placeholder="Stock">
-									</td>
-									<td>Logitech</td>
-									<td>Keyboard logitech 435</td>
-									<td>Pcs</td>
-									<td>Aksesoris</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" class="i-checks"></td>
-									<td>
-										<input type="text" class="form-control" placeholder="Stock">
+										<input type="text" class="form-control" placeholder="Stock" value="1">
 									</td>
 									<td>Vivo</td>
 									<td>Vivo v15 Pro</td>

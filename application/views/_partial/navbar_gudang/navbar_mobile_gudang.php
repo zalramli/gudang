@@ -14,7 +14,9 @@
 								<ul id="democrou" class="collapse dropdown-header-top">
 									<li><a href="<?= base_url() ?>gudang/barang_toko">Daftar Barang</a></li>
 									<li><a href="<?= base_url() ?>gudang/barang_toko/barang_baru">Barang Baru <span
-												class="badge badge-light">4</span></a></li>
+												class="badge badge-light">10</span></a></li>
+									<li><a href="<?= base_url() ?>gudang/barang_toko/stock_habis">Stock Habis <span
+												class="badge badge-light">5</span></a></li>
 								</ul>
 							</li>
 						</ul>
