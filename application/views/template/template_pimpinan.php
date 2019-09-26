@@ -30,10 +30,15 @@
     <?php echo $contents; ?>
     <!-- Data Content End-->
 
+    <!-- Start footer area-->
+    <?php $this->load->view('_partial/footer.php'); ?>
+    <!-- End footer area-->
+
 
     <!-- Start JAVASCRIPT area-->
     <?php $this->load->view('_partial/javascript_pimpinan.php'); ?>
     <!-- End JAVASCRIPT area-->
+
 </body>
 
 </html>

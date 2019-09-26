@@ -26,6 +26,7 @@
     <!-- animate CSS
                 ============================================ -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/template/css/animate.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/template/css/animation/animation-custom.css">
     <!-- summernote CSS
                 ============================================ -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/template/css/summernote/summernote.css">

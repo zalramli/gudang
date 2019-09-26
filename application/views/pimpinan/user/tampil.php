@@ -33,7 +33,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="data-table-list">
 					<div class="basic-tb-hd">
-						<a href="<?= base_url(); ?>pimpinan/user/add" class="btn btn-success notika-btn-success waves-effect">Daftarkan Toko Baru</a>
+						<a href="<?= base_url(); ?>pimpinan/user/add" class="btn btn-success notika-btn-success waves-effect">Tambah User Baru</a>
 					</div>
 					<div class="table-responsive">
 						<table id="data-table-basic" class="table table-striped">

@@ -34,7 +34,7 @@
 					</div>
 					<div id="Forms2" class="tab-pane notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="">Daftar Barang</a>
+							<li><a href="<?= base_url('pimpinan/daftar_barang'); ?>">Daftar Barang</a>
 							</li>
 						</ul>
 					</div>

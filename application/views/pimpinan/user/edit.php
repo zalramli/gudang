@@ -34,42 +34,73 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="form-element-list">
+
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<label for="">Nama Toko</label>
+							<label for="">Nama Lengkap</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control" placeholder="" value="Toko Sumber Elektronik">
+									<input type="text" class="form-control" placeholder="Nama Lengkap" value="Nama Lengkap 1">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<label for="">Jenis Toko</label>
+							<label for="">Pilih Toko</label>
+							<div class="form-group">
+								<select class="selectpicker" data-live-search="true">
+									<option value="">Pilih Toko</option>
+									<option selected>Nama Toko 1</option>
+									<option>Nama Toko 2</option>
+									<option>Nama Toko 3</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Jenis Akses</label>
 							<div class="form-group">
 								<div class="nk-int-st">
 									<div class="bootstrap-select fm-cmp-mg">
 										<select class="selectpicker">
-											<option>Elektronik</option>
-											<option>Property</option>
-											<option>Alat Tulis</option>
+											<option value="">Pilih Jenis</option>
+											<option selected>Admin</option>
+											<option>Manager</option>
 										</select>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<label for="">Alamat</label>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Username</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="text" class="form-control" placeholder="" value="Lumajang">
+									<input type="text" class="form-control" placeholder="Username" value="Username 1">
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Password</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<input type="password" class="form-control" placeholder="Password">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Konfirmasi Password</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<input type="password" class="form-control" placeholder="Konfirmasi Password">
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<!-- <button type="submit" name="simpan" class="btn btn-primary">Simpan</button> -->
-					<a href="<?= base_url(); ?>pimpinan/toko" class="btn btn-primary">Update</a>
+					<a href="<?= base_url(); ?>pimpinan/user" class="btn btn-primary">Update</a>
 					<a onclick="window.history.back();" class="btn btn-danger">Kembali</a>
 				</div>
 			</div>

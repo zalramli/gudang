@@ -84,7 +84,7 @@
 							<label for="">Password</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="password" class="form-control" placeholder="Username">
+									<input type="password" class="form-control" placeholder="Password">
 								</div>
 							</div>
 						</div>
@@ -92,15 +92,15 @@
 							<label for="">Konfirmasi Password</label>
 							<div class="form-group">
 								<div class="nk-int-st">
-									<input type="password" class="form-control" placeholder="Username">
+									<input type="password" class="form-control" placeholder="Konfirmasi Password">
 								</div>
 							</div>
 						</div>
 					</div>
 
 					<!-- <button type="submit" name="simpan" class="btn btn-primary">Simpan</button> -->
-					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-primary">Simpan</a>
-					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-danger">Kembali</a>
+					<a href="<?= base_url(); ?>pimpinan/user" class="btn btn-primary">Simpan</a>
+					<a onclick="window.history.back();" class="btn btn-danger">Kembali</a>
 				</div>
 			</div>
 		</div>
