@@ -89,7 +89,7 @@
 					</div>
 
 					<!-- <button type="submit" name="simpan" class="btn btn-primary">Simpan</button> -->
-					<a href="<?= base_url(); ?>pimpinan/user" class="btn btn-primary">Simpan</a>
+					<a href="<?= base_url(); ?>manager/user" class="btn btn-primary">Simpan</a>
 					<a onclick="window.history.back();" class="btn btn-danger">Kembali</a>
 				</div>
 			</div>
