@@ -35,7 +35,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="form-element-list">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<label for="">Nama Lengkap</label>
 							<div class="form-group">
 								<div class="nk-int-st">
@@ -43,17 +43,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<label for="">Pilih Toko</label>
-							<div class="form-group">
-								<select class="selectpicker" data-live-search="true">
-									<option value="">Pilih Toko</option>
-									<option>Nama Toko 1</option>
-									<option>Nama Toko 2</option>
-									<option>Nama Toko 3</option>
-								</select>
-							</div>
-						</div>
+
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -63,8 +53,8 @@
 									<div class="bootstrap-select fm-cmp-mg">
 										<select class="selectpicker">
 											<option value="">Pilih Jenis</option>
-											<option>Admin</option>
-											<option>Manager</option>
+											<option>Gudang</option>
+											<option>Kasir</option>
 										</select>
 									</div>
 								</div>

@@ -35,16 +35,6 @@
         <div class="row" style="margin-bottom:27px;">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                 <select class="form-control">
-                    <option value="">Semua Toko</option>
-                    <option>Toko 1</option>
-                    <option>Toko 2</option>
-                    <option>Toko 3</option>
-                    <option>Toko 4</option>
-                    <option>Toko 5</option>
-                </select>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                <select class="form-control">
                     <option value="">Semua Kategori</option>
                     <option>Kategori 1</option>
                     <option>Kategori 2</option>
@@ -53,7 +43,7 @@
                     <option>Kategori 5</option>
                 </select>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Cari Barang">
                     <span class="input-group-btn">

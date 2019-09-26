@@ -33,7 +33,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="data-table-list">
 					<div class="basic-tb-hd">
-						<a href="<?= base_url(); ?>pimpinan/user/add" class="btn btn-success notika-btn-success waves-effect">Tambah User Baru</a>
+						<a href="<?= base_url(); ?>manager/user/add" class="btn btn-success notika-btn-success waves-effect">Tambah User Baru</a>
 					</div>
 					<div class="table-responsive">
 						<table id="data-table-basic" class="table table-striped">
@@ -52,10 +52,10 @@
 									<td>U001</td>
 									<td>Nama lengkap 1</td>
 									<td>Username 1</td>
-									<td>Admin</td>
+									<td>Gudang</td>
 									<td>Nama Toko 1</td>
 									<td>
-										<a href="<?= base_url(); ?>pimpinan/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
+										<a href="<?= base_url(); ?>manager/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-danger fa fa-trash"></i></a>
 									</td>
 								</tr>
@@ -63,10 +63,10 @@
 									<td>U002</td>
 									<td>Nama lengkap 2</td>
 									<td>Username 2</td>
-									<td>Manager</td>
+									<td>Gudang</td>
 									<td>Nama Toko 2</td>
 									<td>
-										<a href="<?= base_url(); ?>pimpinan/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
+										<a href="<?= base_url(); ?>manager/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-danger fa fa-trash"></i></a>
 									</td>
 								</tr>
@@ -77,7 +77,7 @@
 									<td>Kasir</td>
 									<td>Nama Toko 3</td>
 									<td>
-										<a href="<?= base_url(); ?>pimpinan/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
+										<a href="<?= base_url(); ?>manager/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
 										<a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-danger fa fa-trash"></i></a>
 									</td>
 								</tr>

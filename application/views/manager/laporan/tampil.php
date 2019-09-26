@@ -58,18 +58,6 @@
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                                     <div class="form-group">
-                                        <select class="form-control">
-                                            <option value="">Semua Toko</option>
-                                            <option>Toko 1</option>
-                                            <option>Toko 2</option>
-                                            <option>Toko 3</option>
-                                            <option>Toko 4</option>
-                                            <option>Toko 5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                                    <div class="form-group">
                                         <div class="input-group date nk-int-st">
                                             <button type="submit" name="kirim" class="btn btn-primary"><i class="notika-icon notika-print"></i> Print Laporan</button>
                                         </div>
@@ -99,18 +87,6 @@
                                             <span class="input-group-addon"></span>
                                             <input type="text" class="form-control" autoComplete="off" name="tgl_akhir" placeholder="Isi form tanggal akhir" required="" oninvalid="this.setCustomValidity('Tanggal Wajib Diisi')" oninput="setCustomValidity('')">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                                    <div class="form-group">
-                                        <select class="form-control">
-                                            <option value="">Semua Toko</option>
-                                            <option>Toko 1</option>
-                                            <option>Toko 2</option>
-                                            <option>Toko 3</option>
-                                            <option>Toko 4</option>
-                                            <option>Toko 5</option>
-                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">

@@ -74,7 +74,7 @@
 									<td>U003</td>
 									<td>Nama lengkap 3</td>
 									<td>Username 3</td>
-									<td>Kasir</td>
+									<td>Manager</td>
 									<td>Nama Toko 3</td>
 									<td>
 										<a href="<?= base_url(); ?>pimpinan/user/edit"> <i class="btn btn-primary fa fa-pencil-square"></i></a>
