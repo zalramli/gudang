@@ -13,9 +13,7 @@
 							<a href="#" class="nav-link dropdown-toggle"><span>USERNAME (Hak Akses)</span></a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="modal"
-								data-target="#myModaltwo"><span><i class="fa fa-power-off"
-										aria-hidden="true"></i></span></a>
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="modal" data-target="#myModaltwo"><span><i class="fa fa-power-off" aria-hidden="true"></i></span></a>
 						</li>
 
 						<div class="modal fade" id="myModaltwo" role="dialog">
@@ -29,7 +27,7 @@
 										<br>
 									</div>
 									<div class="modal-footer">
-										<a href="logout.php" class="btn btn-default">Yes</a>
+										<a href="" class="btn btn-default">Yes</a>
 										<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
 									</div>
 								</div>
