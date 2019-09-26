@@ -41,6 +41,10 @@
 <script src="<?= base_url(); ?>assets/template/js/knob/jquery.knob.js"></script>
 <script src="<?= base_url(); ?>assets/template/js/knob/jquery.appear.js"></script>
 <script src="<?= base_url(); ?>assets/template/js/knob/knob-active.js"></script>
+<!-- Charts JS
+		============================================ -->
+<script src="<?= base_url(); ?>assets/template/js/charts/Chart.js"></script>
+<script src="<?= base_url(); ?>assets/template/js/charts/line-chart.js"></script>
 <!--  wizard JS
 		============================================ -->
 <script src="<?= base_url(); ?>assets/template/js/wizard/jquery.bootstrap.wizard.min.js"></script>
