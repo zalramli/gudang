@@ -28,9 +28,7 @@
 					</div>
 					<div id="Forms" class="tab-pane notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
-							<li><a href="">Data Manager</a>
-							</li>
-							<li><a href="">Data Admin</a>
+							<li><a href="<?= base_url('pimpinan/user'); ?>">Data User</a>
 							</li>
 						</ul>
 					</div>

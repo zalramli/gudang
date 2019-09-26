@@ -1,0 +1,108 @@
+<div class="breadcomb-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="breadcomb-list">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="breadcomb-wp">
+								<div class="breadcomb-icon">
+									<i class="notika-icon notika-form"></i>
+								</div>
+								<div class="breadcomb-ctn">
+									<h2>Tambah Data User</h2>
+									<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+							<div class="breadcomb-report">
+								<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Breadcomb area End-->
+
+<!-- Form Element area Start-->
+<div class="form-element-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="form-element-list">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Nama Lengkap</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<input type="text" class="form-control" placeholder="Nama Lengkap">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Pilih Toko</label>
+							<div class="form-group">
+								<select class="selectpicker" data-live-search="true">
+									<option value="">Pilih Toko</option>
+									<option>Nama Toko 1</option>
+									<option>Nama Toko 2</option>
+									<option>Nama Toko 3</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Jenis Akses</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<div class="bootstrap-select fm-cmp-mg">
+										<select class="selectpicker">
+											<option value="">Pilih Jenis</option>
+											<option>Admin</option>
+											<option>Manager</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Username</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<input type="text" class="form-control" placeholder="Username">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Password</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<input type="password" class="form-control" placeholder="Username">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<label for="">Konfirmasi Password</label>
+							<div class="form-group">
+								<div class="nk-int-st">
+									<input type="password" class="form-control" placeholder="Username">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- <button type="submit" name="simpan" class="btn btn-primary">Simpan</button> -->
+					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-primary">Simpan</a>
+					<a href="<?= base_url(); ?>admin/barang_global" class="btn btn-danger">Kembali</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
