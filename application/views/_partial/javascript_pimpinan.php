@@ -63,6 +63,11 @@
 		============================================ -->
 <script src="<?= base_url(); ?>assets/template/js/main.js"></script>
 
+<!-- datapicker JS
+		============================================ -->
+<script src="<?= base_url(); ?>assets/template/js/datapicker/bootstrap-datepicker.js"></script>
+<script src="<?= base_url(); ?>assets/template/js/datapicker/datepicker-active.js"></script>
+
 <!-- bootstrap select JS
 		============================================ -->
 <script src="<?= base_url(); ?>assets/template/js/bootstrap-select/bootstrap-select.js"></script>

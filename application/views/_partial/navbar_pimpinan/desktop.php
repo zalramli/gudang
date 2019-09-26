@@ -12,6 +12,8 @@
 					</li>
 					<li><a data-toggle="tab" href="#Forms2"><i class="notika-icon notika-form"></i> Barang</a>
 					</li>
+					<li><a data-toggle="tab" href="#Forms3"><i class="notika-icon notika-form"></i> Laporan</a>
+					</li>
 				</ul>
 				<div class="tab-content custom-menu-content">
 					<div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
@@ -35,6 +37,12 @@
 					<div id="Forms2" class="tab-pane notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
 							<li><a href="<?= base_url('pimpinan/daftar_barang'); ?>">Daftar Barang</a>
+							</li>
+						</ul>
+					</div>
+					<div id="Forms3" class="tab-pane notika-tab-menu-bg animated flipInX">
+						<ul class="notika-main-menu-dropdown">
+							<li><a href="<?= base_url('pimpinan/laporan'); ?>">Lihat Laporan</a>
 							</li>
 						</ul>
 					</div>
