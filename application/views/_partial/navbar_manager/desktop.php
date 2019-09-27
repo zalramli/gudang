@@ -9,6 +9,8 @@
 					</li>
 					<li><a data-toggle="tab" href="#Forms2"><i class="notika-icon notika-form"></i> Barang</a>
 					</li>
+					<li><a data-toggle="tab" href="#Forms4"><i class="notika-icon notika-form"></i> Pengeluaran</a>
+					</li>
 					<li><a data-toggle="tab" href="#Forms3"><i class="notika-icon notika-form"></i> Laporan</a>
 					</li>
 				</ul>
@@ -40,6 +42,13 @@
 							</li>
 						</ul>
 					</div>
+					<div id="Forms4" class="tab-pane notika-tab-menu-bg animated flipInX">
+						<ul class="notika-main-menu-dropdown">
+							<li><a href="<?= base_url('manager/pengeluaran'); ?>">Pemasokan</a>
+							</li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
 		</div>

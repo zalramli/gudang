@@ -24,6 +24,12 @@
 									</li>
 								</ul>
 							</li>
+							<li><a data-toggle="collapse" data-target="#pengeluaran" href="#">Pengeluaran</a>
+								<ul id="pengeluaran" class="collapse dropdown-header-top">
+									<li><a href="<?= base_url('manager/pengeluaran'); ?>">Pemasokan</a>
+									</li>
+								</ul>
+							</li>
 							<li><a data-toggle="collapse" data-target="#laporan" href="#">Laporan</a>
 								<ul id="laporan" class="collapse dropdown-header-top">
 									<li><a href="<?= base_url() ?>manager/laporan">Lihat Laporan</a></li>
