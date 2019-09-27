@@ -84,7 +84,7 @@
 								oninput="setCustomValidity('')">
 						</div>
 					</div>
-					<div style="margin-top:20">
+					<div style="margin-top:30px">
 						<button class="btn btn-success notika-btn-success waves-effect btn-lg btn-block">Login</button>
 					</div>
 			</div>
