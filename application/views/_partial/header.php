@@ -1,19 +1,21 @@
 <div class="header-top-area">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
 				<div class="logo-area">
-					<h2 style="color:white;">LCC KOMPUTER</h2>
+					<h2 style="color:white;">INVENTORY MANAGEMENT</h2>
 				</div>
 			</div>
-			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
 				<div class="header-top-menu">
 					<ul class="nav navbar-nav notika-top-nav">
 						<li class="nav-item">
 							<a href="#" class="nav-link dropdown-toggle"><span>USERNAME (Hak Akses)</span></a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="modal" data-target="#myModaltwo"><span><i class="fa fa-power-off" aria-hidden="true"></i></span></a>
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="modal"
+								data-target="#myModaltwo"><span><i class="fa fa-power-off"
+										aria-hidden="true"></i></span></a>
 						</li>
 
 						<div class="modal fade" id="myModaltwo" role="dialog">
