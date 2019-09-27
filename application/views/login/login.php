@@ -84,9 +84,9 @@
 								oninput="setCustomValidity('')">
 						</div>
 					</div>
-					<!-- <?php echo  $session_id; ?> -->
-					<button type="submit" name="login" class="btn btn-login btn-success btn-float"><i
-							class="notika-icon notika-right-arrow right-arrow-ant"></i></button>
+					<div style="margin-top:20">
+						<button class="btn btn-success notika-btn-success waves-effect btn-lg btn-block">Login</button>
+					</div>
 			</div>
 			</form>
 		</div>
