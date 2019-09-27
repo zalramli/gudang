@@ -36,11 +36,9 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                 <select class="form-control">
                     <option value="">Semua Kategori</option>
-                    <option>Kategori 1</option>
-                    <option>Kategori 2</option>
-                    <option>Kategori 3</option>
-                    <option>Kategori 4</option>
-                    <option>Kategori 5</option>
+                    <option>Laptop</option>
+                    <option>Smartphone</option>
+                    <option>Aksesoris</option>
                 </select>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">

@@ -38,6 +38,9 @@
 						<ul class="notika-main-menu-dropdown">
 							<li><a href="<?= base_url('pimpinan/daftar_barang'); ?>">Daftar Barang</a>
 							</li>
+							<li><a href="<?= base_url('pimpinan/daftar_barang/stock_habis'); ?>">Stock Habis <span
+										class="badge badge-light">5</span></a>
+							</li>
 						</ul>
 					</div>
 					<div id="Forms3" class="tab-pane notika-tab-menu-bg animated flipInX">
