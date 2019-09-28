@@ -14,6 +14,8 @@
 					</li>
 					<li><a data-toggle="tab" href="#Forms3"><i class="notika-icon notika-form"></i> Laporan</a>
 					</li>
+					<li><a data-toggle="tab" href="#Settings"><i class="notika-icon notika-form"></i> Settings</a>
+					</li>
 				</ul>
 				<div class="tab-content custom-menu-content">
 					<div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
@@ -46,6 +48,12 @@
 					<div id="Forms3" class="tab-pane notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
 							<li><a href="<?= base_url('pimpinan/laporan'); ?>">Lihat Laporan</a>
+							</li>
+						</ul>
+					</div>
+					<div id="Settings" class="tab-pane notika-tab-menu-bg animated flipInX">
+						<ul class="notika-main-menu-dropdown">
+							<li><a href="<?= base_url('pimpinan/settings'); ?>">Setting Account</a>
 							</li>
 						</ul>
 					</div>

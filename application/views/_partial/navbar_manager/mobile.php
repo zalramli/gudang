@@ -35,6 +35,11 @@
 									<li><a href="<?= base_url() ?>manager/laporan">Lihat Laporan</a></li>
 								</ul>
 							</li>
+							<li><a data-toggle="collapse" data-target="#settings" href="#">Settings</a>
+								<ul id="settings" class="collapse dropdown-header-top">
+									<li><a href="<?= base_url() ?>manager/settings">Setting Account</a></li>
+								</ul>
+							</li>
 						</ul>
 					</nav>
 				</div>

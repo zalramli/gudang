@@ -34,6 +34,11 @@
 									<li><a href="<?= base_url() ?>pimpinan/laporan">Lihat Laporan</a></li>
 								</ul>
 							</li>
+							<li><a data-toggle="collapse" data-target="#setting" href="#">Settings</a>
+								<ul id="setting" class="collapse dropdown-header-top">
+									<li><a href="<?= base_url() ?>pimpinan/settings">Settings Account</a></li>
+								</ul>
+							</li>
 						</ul>
 					</nav>
 				</div>
