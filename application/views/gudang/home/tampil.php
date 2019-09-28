@@ -1,12 +1,41 @@
-<div class="form-element-area">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="form-element-list">
-					<div class="row">
-						<h2>INI ADALAH HALAMAN HOME ADMIN</h2>
+<div class="container">
+	<div class="row">
+		<a style="color:black" href="">
+			<div style="margin-bottom: 30px;" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="contact-inner">
+					<div class="contact-inner">
+						<h2 class="text-right">
+							70
+						</h2>
+						<span><strong>JUMLAH BARANG</strong></span>
 					</div>
 				</div>
 			</div>
-		</div>
+		</a>
+		<a style="color:black" href="">
+			<div style="margin-bottom: 30px;" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="contact-inner">
+					<div class="contact-inner">
+						<h2 class="text-right">
+							10
+						</h2>
+						<span><strong>BARANG BARU</strong></span>
+					</div>
+				</div>
+			</div>
+		</a>
+
+		<a style="color:black" href="">
+			<div style="margin-bottom: 30px;" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="contact-inner">
+					<div class="contact-inner">
+						<h2 class="text-right">
+							5
+						</h2>
+						<span><strong>STOCK HABIS</strong></span>
+					</div>
+				</div>
+			</div>
+		</a>
 	</div>
+</div>
