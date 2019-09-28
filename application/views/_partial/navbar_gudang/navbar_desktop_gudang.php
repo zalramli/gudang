@@ -8,6 +8,9 @@
 					<li class=""><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i>
 							Data Barang</a>
 					</li>
+					<li class=""><a data-toggle="tab" href="#Setting"><i class="notika-icon notika-edit"></i>
+							Settings</a>
+					</li>
 				</ul>
 				<div class="tab-content custom-menu-content">
 					<div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
@@ -25,6 +28,12 @@
 							</li>
 							<li><a href="<?= base_url() ?>gudang/barang_toko/stock_habis">Stok Habis <span
 										class="badge badge-light">5</span></a>
+							</li>
+						</ul>
+					</div>
+					<div id="Setting" class="tab-pane in notika-tab-menu-bg animated flipInX">
+						<ul class="notika-main-menu-dropdown">
+							<li><a href="<?= base_url() ?>gudang/settings">Setting Account</a>
 							</li>
 						</ul>
 					</div>

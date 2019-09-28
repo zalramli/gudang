@@ -28,6 +28,11 @@
 									<li><a href="<?= base_url() ?>admin/satuan_barang">Satuan</a></li>
 								</ul>
 							</li>
+							<li><a data-toggle="collapse" data-target="#Charts" href="#">Settings</a>
+								<ul class="collapse dropdown-header-top">
+									<li><a href="<?= base_url() ?>admin/settings">Setting Account</a></li>
+								</ul>
+							</li>
 						</ul>
 					</nav>
 				</div>

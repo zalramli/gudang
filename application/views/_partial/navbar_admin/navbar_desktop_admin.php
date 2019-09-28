@@ -12,6 +12,9 @@
 					<li class=""><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i>
 							Data Barang</a>
 					</li>
+					<li class=""><a data-toggle="tab" href="#Setting"><i class="notika-icon notika-edit"></i>
+							Settings</a>
+					</li>
 				</ul>
 				<div class="tab-content custom-menu-content">
 					<div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
@@ -41,6 +44,12 @@
 					<div id="Distributor" class="tab-pane notika-tab-menu-bg animated flipInX">
 						<ul class="notika-main-menu-dropdown">
 							<li><a href="<?= base_url() ?>admin/distributor">Data Distributor</a>
+							</li>
+						</ul>
+					</div>
+					<div id="Setting" class="tab-pane notika-tab-menu-bg animated flipInX">
+						<ul class="notika-main-menu-dropdown">
+							<li><a href="<?= base_url() ?>admin/settings">Setting Account</a>
 							</li>
 						</ul>
 					</div>

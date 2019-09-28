@@ -19,6 +19,12 @@
 												class="badge badge-light">5</span></a></li>
 								</ul>
 							</li>
+							<li><a data-toggle="collapse" data-target="#setting" href="#">Settings</a>
+								<ul id="setting" class="collapse dropdown-header-top">
+									<li><a href="<?= base_url() ?>gudang/settings">Setting Account</a></li>
+								</ul>
+							</li>
+
 						</ul>
 					</nav>
 				</div>
